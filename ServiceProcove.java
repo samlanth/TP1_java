@@ -14,7 +14,7 @@ class ServiceProcove implements Runnable
 	Simbot mRobot;
 	String [] ControlCommand = { "MOT","ROT"};
 	String [] NoControlCommand = { "REL","FIN","SYN","DEL","VER","LST","SPC","BAS","BAT","CAM","COL","DIR","LAS","LUM","NAO","POS","SON","VIT" };
-	
+	//
 	IntHolder nbr;
 	// Le constructeur reçoit en paramètre un socket déjà connecté au client et un simbot
 	public ServiceProcove(Socket s, Simbot robot,IntHolder n)
